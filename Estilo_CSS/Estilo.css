@@ -1,72 +1,81 @@
-* {
-    margin: 0;
+*{
     padding: 0;
-    box-sizing:border-box; 
-}
-body{
-    background-color: rgb(189, 174, 174);
-}
-header{
-    background-color: rgb(236, 216, 216);
-    color:rgb(126, 69, 69)
-}
-.menu li{
-    background-color: rgb(187, 134, 134);
-    list-style: none;
-    padding: 5px;
-    font:bold 14px verdana;
-    display: inline-block;
-    color: black;
-}
-img{
-    width: 100px;
-    display:block;
+    margin: 0;  
+
 }
 
-section{
-    width: 250px;
-    background-color: rgb(195, 11, 130);
-    padding: 10px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 4px;
-    font-family: 'Calibri';
+.menu {
+    background-color:rgb(236, 216, 216);    
+    width: 100%;   
+    height: 150px;    
 }
-
-section h4{
-    font-size: 20px;
-    margin-bottom: 10px;
+nav div img {     
+    margin-left: 1150px;    
+    margin-top: -70px;
+    width: 135px;     
 }
-input{
+nav ul .menu1 {
+    background-color:rgb(236, 216, 216);
     width: 100%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    border: 1px solid black;
-    font-family: 'Calibri';
-    font-size: 13px;
+    height: 80px;   
+    text-align: left;
+    
 }
-section p {
-    height: 30px;
-    text-align: center;
-    font-size: 10px;
-    line-height: 30px;
-}
-section a {
-    color: white;
+nav a {
+    font-family: 'Lucida Bright';
+    font-size: x-large;
     text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 180px;
 }
-section a:hover {
-    color: white;
-    text-decoration: underline;
-}
-section.boton{
+.panaderia {
+    
     width: 100%;
-    background-color: rgb(175, 175, 197);
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 12px 0;
-    font-size: 10px;
+    margin-top: 10px;
+    height: 20px;
+    padding: 20px;    
+    background-color: rgb(126, 69, 69);    
 }
+.panaderia a {
+    font-family: 'Montserrat';
+    color: white;
+}
+nav li {
+    display: inline-flex;    
+}
+.primer_titulo {
+    width: 100%;
+    background-color: rgb(204, 140, 140);
+    height: 140px;
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Montserrat';
+    color: white;    
+    font: bold;
+}
+h2 {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    color: white;
+    
+}
+.seccion {
+    display: flex;
+    align-items: center;
+    background-color:rgb(236, 216, 216);    
+}
+.seccion img {
+    width: 600px;
+}
+.seccion p {   
+    text-align: center;    
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    font-size: 60px;
+
+}
+
+
