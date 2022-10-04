@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;  
 
+
 }
 
 .menu {
     background-color:rgb(236, 216, 216);    
     width: 100%;   
-    height: 150px;    
+    height: 149px;     
 }
 nav div img {     
     margin-left: 1150px;    
