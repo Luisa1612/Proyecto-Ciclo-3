@@ -31,7 +31,6 @@ nav a {
     width: 180px;
 }
 .panaderia {
-    
     width: 100%;
     margin-top: 10px;
     height: 20px;
@@ -77,6 +76,9 @@ h2 {
     padding: 40px;
     font-size: 60px;
 
+}
+nav li:not(nav li:nth-child(1)):hover {
+    background-color: bisque;
 }
 
 
