@@ -8,13 +8,13 @@ font-family: sans-serif;
 height: 100vh;
 }
 .menu {
-    background-color:rgb(196, 155, 175);  
+    background-color:rgb(236,216, 216);  
     width: 100%;   
     height: 80px;    
    
 }
 .menu :hover {
-   color: rgb(227, 202, 215);
+   color: rgb(132, 78, 105);
    
 }
 
@@ -26,7 +26,6 @@ padding: 0%;
 
 nav ul .menu1 {
     background-color:rgb(40, 35, 35);
-    width: 100%;
     height: 80px;   
     text-align: left;
     
@@ -44,9 +43,8 @@ nav a {
 
 }
 .panaderia {
-    width: 100%;
     margin-top: 10px;
-    margin-left: -10%;
+    margin-left: -11%;
     height: 20px;
     padding: 20px;    
     background-color: rgb(126, 69, 69);    
