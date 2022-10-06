@@ -1,47 +1,63 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DELIRIUM BACKERY</title>
-    <meta name="keywords" content="Pasteleria, Pan artesanal,"/>
-    <link rel="stylesheet" type="text/css" href="../Estilo_CSS/estilo_registrame.css"> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registro</title>
+	<link rel="stylesheet" type="text/css" href="estilos_registro.css">
+	<script src="https://kit.fontawesome.com/1e9437494d.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <div>
-        <header>
-            <img src="../Imagenes/logo_deliriumbakery.png">
-            <H1>Delirium Backery </H1>
-        </header>              
-        <nav class="menu">
-            <ul>
-                <li>Nosotros somos y seremos</li>
-                <li>Tortas</li>
-                <li>Panaderia</li>
-                <li>Galletas</li>
-            </ul>
+	<a href="index.html">Inicio</a>
+	<div class="menu">
+        <nav>
+            <ul class="menu1"> 
+                <li><div class="panaderia"><a href="">#PanaderíaArtesanal.</a></div></li>
+                <li class="home"><a href="../Estructura_HTML/index.html"><i class="fa-solid fa-house-user"></i> </a></li>   
+                <li><a href="#">Pastelería</a></li>
+                <li><a href="#">Panadería</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+                                      
+            </ul>       
         </nav>
     </div>
-        <section class="registro">
-            <h4>Registro de clientes</h4>
-           		<input class="controles" type="text" name="Nombre" id="campo nombre" placeholder="Escribe tu nombre">
-                <input class="controles" type="email" name="email" id="email" placeholder="Escribe tu correo electronico">
-                <input class="controles" type="text" name="telefono" id="telefono" placeholder="Escriebe tu nuemro celular">
-                <input class="controles" type="password" name="password" id="password" placeholder="Ingrese su contraseña">
-                <p><a href="#">Estoy de acuerdo con Terminos y Condiciones</a></p>
-                <input class="boton" type="submit" value="Registrar">
-                <p><a href="#">¿Ya estas registrado?</a></p>
-            
-                
-				
-        </section>>
-         
-			
+	<div class="registro-box">
+		<h2>Registro Clientes</h2>
+		<form>
+			<div class="usuario-box">
+				<input type="text" name="" required="">
+				<label>Nombre</label>
+			</div>
 
-    
-    
+			<div class="usuario-box">
+				<input type="text" name="" required="">
+				<label>Correo electronico</label>
+			</div>
+			<div class="usuario-box">
+				<input type="text" name="" required="">
+				<label>Celular</label>
+			</div>
+
+			<div>
+				<div class="usuario-box">
+				<input type="text" name="" required="">
+				<label>Contraseña</label>		
+			</div>
+			<div>
+				<div class="usuario-box">
+				<input type="text" name="" required="">
+				<label>Confirmar Contraseña</label>		
+			</div>
+
+			<div class="button-form">
+				<a id="submit" href="#">Enviar</a>
+				<div id="registrar">
+					No tienes una cuenta?
+					<a href="#">Registrar</a>
+				</div>
+			</div>
+		</form>
+	</div>
     
 </body>
 </html>
