@@ -42,6 +42,7 @@ nav ul .menu1 {
 }
 nav a {
     font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     text-decoration: none;
     color: black;
@@ -63,6 +64,7 @@ nav a {
     
 }
 .panaderia a {
+    font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     color: white;      
 
