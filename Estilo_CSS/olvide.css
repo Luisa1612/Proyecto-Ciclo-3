@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119,77, 78);
+    font-family:sans-serif ;
+}
+
+.recuadro{
+    width: 320px;
+    height: 420px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.recuadro h1{
+    
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 20px;
+font-style:italic;
+margin-bottom: 20px;
+
+}
+.recuadro label{
+margin: 0;
+padding: 0;
+font-weight: bold;
+display: block;
+
+}
+
+.recuadro input{
+width: 100%;
+margin-bottom: 20px;
+
+
+}
+
+.recuadro input[type="text"]{
+
+    border: none;
+    border-bottom: 1px solid rgb(126, 46, 46);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 80px;
+
+}
+
+.recuadro input[type="submit"]{
+border : none ;
+outline: none;
+height: 40 px;
+background: rgb(130, 70, 70);
+color: rgb(255, 255, 255);
+font-size: 18px;
+border-radius: 20px;
+
+}
+.recuadro h2 {
+text-decoration: none;
+font-size: 12px;
+line-height: 20px;
+color: darkgray;
+}
+.recuadro h2 a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+    
+    }
+
+.recuadro h2  :hover{
+    
+    color: rgb(8, 8, 8);
+    
+    }
