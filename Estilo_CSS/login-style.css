@@ -168,11 +168,11 @@ color: rgb(187,134, 134);
 .ingreso{
     position: relative;
     padding: 1px;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     margin-bottom: 10px;
     text-align: center;
     border: solid 1px rgb(126, 69, 69);
     border-radius: 5px;
-    box-shadow: 0 20px 30px white;
+    box-shadow: 0 10px 20px white;
 }
