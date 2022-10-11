@@ -155,6 +155,8 @@ margin-bottom: 40px;
 }
 
 .login-logo a {
+    margin-top: 10px;
+    text-align: center;
     font-style: inherit;
     font-size: 12px;
     line-height: 20px;
