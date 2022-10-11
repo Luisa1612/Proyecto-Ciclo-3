@@ -172,7 +172,7 @@ color: rgb(187,134, 134);
     font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
-    border: solid 1px rgb(126, 69, 69);
+    border: solid 1px rgb(187, 134, 134);
     border-radius: 5px;
-    box-shadow: 0 10px 20px black;
+    box-shadow: 0 10px 20px rgb(126, 69, 69);
 }
