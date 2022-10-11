@@ -167,9 +167,9 @@ color: rgb(187,134, 134);
 
 .ingreso{
     position: relative;
-    padding: 1px;
-    font-size: 16px;
-    color: white;
+    padding: 5px;
+    font-size: 20px;
+    
     margin-bottom: 10px;
     text-align: center;
     border: solid 1px rgb(126, 69, 69);
