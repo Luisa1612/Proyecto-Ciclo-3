@@ -141,7 +141,6 @@ padding-top: 40px;
 }
  .login-logo input[type="password"]{
     margin-bottom: 50px;
-
 }
 
 .login-logo input[type="submit"]{
@@ -153,19 +152,24 @@ border: 1px solid rgb(187, 134, 134);
 color: rgb(187,134, 134);
 border-radius: 50px;
 margin-bottom: 40px;
-
 }
-
 
 .login-logo a {
     font-style: inherit;
     font-size: 12px;
     line-height: 20px;
     color: rgb(187, 134, 134);
-      
 }
 
 .login-logo a:hover{
 color: rgb(187,134, 134);
+}
 
+.ingreso{
+    padding: auto;
+    font-size: 14px;
+    background: rgb(187, 134, 134);
+    border: solid 1px rgb(126, 69, 69);
+    border-radius: 5px;
+    box-shadow: 0 20px 30px white;
 }
