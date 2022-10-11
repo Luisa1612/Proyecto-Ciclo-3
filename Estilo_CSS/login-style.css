@@ -127,7 +127,6 @@ margin-bottom: 20px;
 
 .login-logo input[type="text"],
 .login-logo input[type="password"]{
-
 border: none;
 border-bottom: 1px solid rgb(126, 69, 69);
 background: transparent;
@@ -150,7 +149,7 @@ border: none;
 outline: none;
 height: 40px;
 background: rgb(236, 216, 216);
-border: 1px solid rgb(126, 69, 69);
+border: 1px solid rgb(187, 134, 134);
 color: rgb(187,134, 134);
 border-radius: 50px;
 margin-bottom: 40px;
@@ -160,7 +159,7 @@ margin-bottom: 40px;
 
 .login-logo a {
     font-style: inherit;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 20px;
     color: rgb(187, 134, 134);
       
