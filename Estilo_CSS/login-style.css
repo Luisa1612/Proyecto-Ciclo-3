@@ -121,6 +121,7 @@ font-size: 22px;
     padding: 0;
     font-weight: bold;
     display: block;
+    color: rgb(189, 108, 108);
 }
 .login-logo input{
 width: 100%;
